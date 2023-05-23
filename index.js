@@ -13,3 +13,9 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function clearAll() {
+    saveEl.textContent = ""
+    countEl.textContext = 0
+    count = 0
+}
