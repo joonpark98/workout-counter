@@ -1,6 +1,8 @@
 body {
     background-image: url("workout.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: Stencil Std, fantasy, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -44,4 +46,3 @@ button {
 #save-btn {
     background: darkgreen;
 }
-
